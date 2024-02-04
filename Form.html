@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="action">
+        <div>
+            <b>Full name</b>
+            <br>
+            <label for="Name"></label>
+            <input type="text" id="Name" placeholder="First">
+            <label for="Name"></label>
+            <input type="text" id="Name" placeholder="Last">
+        </div>
+        <div>
+            <b>Nickname</b>
+            <br>
+            <label for="nickname"></label>
+            <input type="text" name="nickname" id="nickname" placeholder="">
+            <br>
+            
+        </div>
+        
+        <div>
+            <b>Birthday</b>
+            <br>
+            <label for="DoB"></label>
+            <input type="date" name="DOB" id="dob" >
+
+        </div>
+        <div>
+            <label for="gen"><b>choose youre Gender</b></label>
+            <select name="gender" id="gen">
+                <option value="choose">not defined</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="T">Transegender</option>
+            </select>
+        </div>
+        <div>
+            <b>School name</b>
+            <br>
+            <label for="Sch"></label>
+            <input type="text" id="Sch">
+            <br>
+            <b>School Address</b>
+            <br>
+            <label for="Add"></label>
+            <input type="text" id="Add" placeholder="Street Address"><br>
+            <input type="text" id="Add" placeholder="Street Address Line 2"><br>
+            <input type="text" id="Add" placeholder="City">
+            <input type="text" id="Add" placeholder="Region"><br>
+            <input type="number" id="Add" placeholder="Postal/Zip Code">
+            <input type="text" id="Add" placeholder="Country">
+            <br>
+        </div>
+        <div>
+            <b>Home Address</b>
+            <br>
+            <label for="Add"></label>
+            <input type="text" id="Add" placeholder="Street Address"><br>
+            <input type="text" id="Add" placeholder="Street Address Line 2"><br>
+            <input type="text" id="Add" placeholder="City">
+            <input type="text" id="Add" placeholder="Region"><br>
+            <input type="number" id="Add" placeholder="Postal/Zip Code">
+            <input type="text" id="Add" placeholder="Country">
+            <br>
+        </div>
+
+        
+        <div>
+            <b>Phone number</b>
+            <br>
+            <label for="num"></label>
+            <input type="text" name="Phone" id="num" placeholder="">
+        </div>
+        <div>
+            <b>Alternate Phone number</b>
+            <br>
+            <label for="num"></label>
+            <input type="text" name="Phone" id="num" placeholder="">
+        </div>
+        <div>
+            <b>Email</b>
+            <br>
+            <label for="email"></label>
+            <input type="email" name="mailto:" id="email">
+        </div>
+        <div>
+            <b>Interest</b>
+            <br>
+            <input type="radio" name="interest" id="int">
+            <label for="int">Medical</label>
+            <br>
+            
+            <input type="radio" name="interest" id="int">
+            <label for="int">Engineering</label>
+            
+        </div>
+        <div>
+            do you agree to all the terms & conditions?
+            <input type="checkbox" id="tos_agree" name="tos_agree">
+            <label for="tos_agree">Yes i agree.</label>
+        </div>
+        <button type="submit">register</button>
+    </form> 
+</body>
+</html>
